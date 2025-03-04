@@ -113,3 +113,18 @@ body{
 .apresentacao__imagem{
     width: 35%;
 }
+
+
+@media (max-width: 1200px){
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+
+    .cabecalho_menu{
+        justify-content: center;
+    }
+
+    .cabecalho{
+        padding: 10%;
+    }
+}
